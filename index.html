@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuegoMagico</title>
+    <link rel="stylesheet" href="estilos.css" id="estilos">
+</head>
+<body onload="carga()">
+
+<header> 
+    <h1 id="titulo">Bienvenidos A Tu Numero Magico</h1>
+
+</header>
+<main>
+        <section>
+            <h2 id="descripcion">El juego consiste en que generaremos un numero del 1 al 1000 y usted tendra 10 intentos
+                para adividar dicho numero.</h2>
+             <h2 id=editar>
+                MUCHA SUERTE
+             </h2>    
+
+        </section>
+
+        <section>
+            <form action="../form-result.php"name="formularioRegistro" id="formularioRegistro" target="_blank">
+
+                <p>
+                  Ingresa tu nombre completo: <input type="text" name="nombrecompleto" id="nombrecompleto">
+                  <input type="button" onclick="NumeroMagico()" id="btnRegistrar" value="IniciarJuegoAqui" form="formularioRegistro">
+                </p>
+               
+              
+            </form>
+            
+        </section>
+</main> 
+    <br>
+            <p> Tiempo activo en la pagina: 
+                <span id="minutos">0</span>:<span id="segundos">0</span>   |   Hora en tiempo real: <span id="demo"></span>
+            </p>
+
+</body>
+<script src="numeroadivinar.js"></script>
+</html>

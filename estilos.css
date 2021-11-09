@@ -1,0 +1,31 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#titulo{
+    text-align:center;
+}
+body{
+    background-color:     #f8efda
+}
+
+#editar{
+    text-align: center;
+}
+
+form{
+    border: 2px solid black;
+    box-shadow: 9px 10px 5px 0 black;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    background-color: #f8efb8;
+}
+
+p{
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+ 
+}
